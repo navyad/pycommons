@@ -1,7 +1,7 @@
 from datetime import datetime, timezone, tzinfo
 
 
-def _datetime_now(tz=None):
+def _datetime_now(tz=None) -> datetime:
     return datetime.now(tz)
 
 def now_local() -> datetime:
