@@ -21,3 +21,7 @@ class BaseAPI(object):
         response = requests.get(url, params=params, headers=headers)
         logger.info(f"request: {url}, params: {params}, headers: {headers}")
         return response
+
+
+def api_client():
+    return BaseAPI()
