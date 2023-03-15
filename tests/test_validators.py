@@ -1,6 +1,6 @@
 import pytest
 
-from src.validators import (
+from commons.validators import (
     validate_mobile_number,
     validate_gstin)
 
