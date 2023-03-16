@@ -1,7 +1,7 @@
 # pycommons
 common utilities functions
 
-
+[![build status](https://github.com/navyad/pycommons/actions/workflows/app.yml/badge.svg)](https://github.com/navyad/pycommons/actions/workflows/app.yml/badge.svg)
 ---
 <details>
 <summary><b>Validators.validate_mobile_number(str)</b></summary>
